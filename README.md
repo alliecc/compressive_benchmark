@@ -40,7 +40,7 @@ The following data were provided:
 3. FCGF and D3Feat features
 4. The ground truth poses
 
-We haved preprocessed the results from FCGF and D3Feat into pickle files. The dataset is organized as source-target pairs. The source is the input LiDAR scan and the target is the cropped local map with initial LiDAR pose.
+We haved preprocessed the results from FCGF and D3Feat into pickle files. The dataset is organized as source-target pairs. The source is the input LiDAR scan and the target is the cropped local map.
 
 By default, we put the data in ./data folder. Please download the corresponding files from [[link]](https://drive.google.com/drive/folders/1kfSmi1-ZUctKj_mBj2_FwxOhyyvp6TTb?usp=sharing) and put/symlink it in ./data. The file structure is as follows:
 
