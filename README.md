@@ -70,9 +70,9 @@ To run the code, simply use the following command and specify the config file na
 python3 run_eval.py --path_cfg=configs.config
 ```
 
-For trying out existing methods, first edit [config.py](https://github.com/alliecc/compressive_benchmark/blob/main/configs/config.py) to config the method list, the dataset name, and the local dataset path. 
+For trying out existing methods, first edit [config.py](https://github.com/alliecc/compressive_benchmark/blob/master/configs/config.py) to config the method list, the dataset name, and the local dataset path. 
 
-For trying out new methods, please add the registration function to [tester.py](https://github.com/alliecc/compressive_benchmark/blob/main/utils/tester.py) and add the method configuration to [method.py](https://github.com/alliecc/compressive_benchmark/blob/main/configs/methods.json) and the parameters to method.json.
+For trying out new methods, please add the registration function to [tester.py](https://github.com/alliecc/compressive_benchmark/blob/master/utils/tester.py) and add the method configuration to [method.py](https://github.com/alliecc/compressive_benchmark/blob/master/configs/methods.json) and the parameters to method.json.
 
 To visualize the resulting recall curves, please run
 ```shell
@@ -80,9 +80,9 @@ python3 make_recall_figure_threshold.py --path_cfg=configs.config
 ```
 It will generate the recall plot and error density plot in ./output_eval_{dataset_name}. Here is an expected outout:
 
-<img src="https://github.com/alliecc/compressive_benchmark/blob/main/images/output_recall_KITTI.jpg" width="800"> 
+<img src="https://github.com/alliecc/compressive_benchmark/blob/master/images/output_recall_KITTI.jpg" width="800"> 
 
-<img src="https://github.com/alliecc/compressive_benchmark/blob/main/images/output_x_error_KITTI.jpg" width="1000"> 
+<img src="https://github.com/alliecc/compressive_benchmark/blob/master/images/output_x_error_KITTI.jpg" width="1000"> 
 
 # Acknowledgement
 This work was supported by the CMU Argo AI Center for Autonomous Vehicle Research. We also thank our labmates for the valuable suggestions to improve this paper.
