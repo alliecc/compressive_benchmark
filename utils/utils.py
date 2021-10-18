@@ -1,9 +1,8 @@
-# code partially from D3feat repo
-import numpy as np
 import pickle
 import os
 import csv
 import open3d as o3d
+import numpy as np
 
 
 def make_open3d_pc(points, colors=None):
