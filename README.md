@@ -87,7 +87,6 @@ It will generate the recall plot and error density plot in ./output_eval_{datase
 # Acknowledgement
 This work was supported by the CMU Argo AI Center for Autonomous Vehicle Research. We also thank our labmates for the valuable suggestions to improve this paper.
 
-
 # References
 1. [Teaser++](https://github.com/MIT-SPARK/TEASER-plusplus)
 2. [Open3d](http://www.open3d.org/)
