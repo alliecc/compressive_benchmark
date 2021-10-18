@@ -1,0 +1,61 @@
+{
+    "use_ini_pose":{
+        "point_based":true,
+        "data_size": 3,
+        "precomputed" : false
+    },
+
+   
+    "icp_pt2pl_o3d":{
+        "point_based":true,
+        "data_size": 6,
+        "precomputed" : false,
+        "threshold":30
+    },
+    "icp_pt2pt_o3d":{
+        "point_based":true,
+        "data_size": 3,
+        "precomputed" : false,
+        "threshold":30
+    },
+
+    "fpfh":{
+        "point_based":true,
+        "data_size": 36,
+        "precomputed" : false,
+        "distance_threshold" : 50
+    },
+    "fcgf":{
+        "point_based":true,
+        "data_size": 35,
+        "precomputed" : true
+    },
+
+
+    "d3feat":{
+        "point_based":true,
+        "data_size": 35,
+        "precomputed" : true,
+        "path_precomputed" : "./data/deep"
+    },
+
+
+    "fcgf":{
+        "point_based":true,
+        "data_size": 35,
+        "precomputed" : true,
+        "path_precomputed" : "./data/deep"
+    },
+
+
+    "teaser":{
+        "cbar2" : 1.0,
+        "noise_bound": 5,
+        "estimate_scaling" : false,
+        "rotation_gnc_factor": 1.4,
+        "rotation_max_iterations" : 100,
+        "rotation_cost_threshold" : 1e-16
+    }
+
+    
+}
